@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>edc1fbee-05ef-4593-a473-d66ef2a40c14</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_pptx.py</StartupFile>
+    <StartupFile>add_textbox.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="add_textbox.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python_pptx.py" />
   </ItemGroup>
   <PropertyGroup>
